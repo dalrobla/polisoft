@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoliPokemon</title>
+</head>
+<body>
+    <h1>PoliPokemones</h1>
+
+    <script>
+
+    function consultarPokemon(id) {
+        fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+        .then(function (response) {
+            response.json()
+            .then(function name(pokemon) {
+                console.log(pokemon)
+                
+            })
+            
+        })               
+    }
+    
+    consultarPokemon(25)
+    
+
+
+
+
+    </script>
+</body>
+</html>
