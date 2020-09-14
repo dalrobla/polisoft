@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Bienvenido Grupo arquitectura de software
 
 You can use the [editor on GitHub](https://github.com/dalrobla/polisoft/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
